@@ -7,4 +7,38 @@
 body {
 	font-family: 'Fraunces', serif;
 	font-family: 'Montserrat', sans-serif;
+	background-color: hsl(30, 38%, 92%);
 }
+
+.card {
+	margin: 20px auto;
+	width: 90%;
+	height: 90%;
+	background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.wrapper {
+    margin: 15px auto;
+    width: 85%;
+    max-width: 300px;
+}
+
+.hero-img {
+    height: 240px;
+    background-image: url('../images/image-product-mobile.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* 
+
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+- Font size (paragraph): 14px */
