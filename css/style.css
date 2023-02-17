@@ -12,8 +12,10 @@ body {
 .card {
 	margin: 20px auto;
 	width: 90%;
-	max-width: 900px;
+	max-width: 650px;
 	height: 80%;
+	max-height: 550px;
+
 	background-color: hsl(0, 0%, 100%);
 	border-radius: 15px;
 	overflow: hidden;
@@ -93,7 +95,7 @@ svg {
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		max-height: 750px;
+		/* max-height: 750px; */
 	}
 
 	.hero-img {
@@ -108,11 +110,11 @@ svg {
 	}
 
 	.text h3 {
-		font-size: 30px;
+		font-size: 20px;
 	}
 
 	.text-title {
-		font-size: 60px;
+		font-size: 46px;
 		margin-bottom: 20px;
 	}
 
@@ -121,9 +123,9 @@ svg {
 		line-height: 1.5;
 	}
 
-	.price-box {
-		margin-top: 40px;
-	}
+	/* .price-box {
+		/* margin-top: 40px; */
+	} */
 
 	.price {
 		font-size: 46px;
@@ -136,7 +138,7 @@ svg {
 	.price-btn {
 		padding: 20px 10px;
 		/* margin-top: 40px; */
-		font-size: 30px;
+		font-size: 24px;
 		cursor: pointer;
 	}
 
