@@ -95,7 +95,6 @@ svg {
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		/* max-height: 750px; */
 	}
 
 	.hero-img {
@@ -123,10 +122,6 @@ svg {
 		line-height: 1.5;
 	}
 
-	/* .price-box {
-		margin-top: 40px; 
-	} */
-
 	.price {
 		font-size: 46px;
 	}
@@ -136,8 +131,7 @@ svg {
 	}
 
 	.price-btn {
-		padding: 20px 10px;
-		/* margin-top: 40px; */
+		padding: 15px 10px;
 		font-size: 24px;
 		cursor: pointer;
 	}
