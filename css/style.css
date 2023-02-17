@@ -15,7 +15,6 @@ body {
 	max-width: 650px;
 	height: 80%;
 	max-height: 550px;
-
 	background-color: hsl(0, 0%, 100%);
 	border-radius: 15px;
 	overflow: hidden;
@@ -42,8 +41,8 @@ body {
 }
 
 .text-title {
-	font-family: 'Fraunces', serif;
 	margin: 10px 0;
+	font-family: 'Fraunces', serif;
 	color: hsl(212, 21%, 14%);
 }
 
@@ -60,23 +59,23 @@ body {
 .price {
 	font-family: 'Fraunces', serif;
 	font-weight: 700;
-	color: hsl(158, 36%, 37%);
 	font-size: 30px;
+	color: hsl(158, 36%, 37%);
 }
 
 .price-discount {
 	position: relative;
 	top: -5px;
-	color: hsl(228, 12%, 48%);
-	font-size: 15px;
 	margin-left: 20px;
+	font-size: 15px;
+	color: hsl(228, 12%, 48%);
 	text-decoration: line-through;
 }
 
 .price-btn {
-	width: 100%;
 	padding: 10px;
 	margin-top: 10px;
+	width: 100%;
 	background-color: hsl(158, 36%, 37%);
 	color: hsl(0, 0%, 100%);
 	font-weight: 700;
